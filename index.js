@@ -1,4 +1,4 @@
-var recipes = {breakfast: milk};
+var recipes = {'breakfast': 'milk'};
 
 function updateObjectWithKeyAndValue(object, key, value){
   return Object.assign({}, object, {[key]:value});
